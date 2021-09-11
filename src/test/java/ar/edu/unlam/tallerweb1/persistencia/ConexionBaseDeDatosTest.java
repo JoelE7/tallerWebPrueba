@@ -12,6 +12,8 @@ import static org.assertj.core.api.Assertions.*;
 public class ConexionBaseDeDatosTest extends SpringTest{
 
 	
+	private Integer i = 0;
+	private Integer e = 2;
 	
     @Test
     @Transactional @Rollback
