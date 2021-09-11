@@ -1,0 +1,17 @@
+languaje: java
+script: mvn clean test
+notifications:
+  slack:
+    on_success: change
+  email:
+    recipients:
+      - jescobarlasalas@alumno.unlam.edu.ar
+	  - gabirel@live.com
+	  - jessica_dlg@live.com.ar
+	  - brianvt00@gmail.com
+	  - xd_dany@me.com
+	  - rodrigo.ivan.matto@gmail.com
+    on_success: change 
+    on_failure: always 
+jdk:
+  - openjdk11
