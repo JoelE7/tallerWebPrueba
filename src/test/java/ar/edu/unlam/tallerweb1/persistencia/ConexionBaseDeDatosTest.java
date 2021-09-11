@@ -11,10 +11,12 @@ import static org.assertj.core.api.Assertions.*;
 // de spring
 public class ConexionBaseDeDatosTest extends SpringTest{
 
+	
+	
     @Test
     @Transactional @Rollback
     public void pruebaConexion(){
-        assertThat(session().isConnected()).isTrue();
+        assertThat(session().isConnected()).isTrue()
     }
 
     @Test
